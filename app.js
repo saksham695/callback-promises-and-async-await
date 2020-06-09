@@ -1,8 +1,3 @@
-2 screens :
-->1st screen :
-->2nd screen :screens.device.deviceSetup.paringTheSwitchTogetherHeader
-
-
 // console.log("Before");
 // getUser("9818773688")
 //   .then((res) => getVideos(res))
@@ -95,4 +90,3 @@ function getRepoCommits(id, callback) {
   const getCommit = user.find((itr) => itr.commitID === id);
   callback(getCommit);
 }
-
